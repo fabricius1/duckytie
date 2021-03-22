@@ -5,7 +5,7 @@ import os
 
 
 # PART 1
-def read_text_aloud(text, filename="temp.mp3", delete_mp3=True, language="en", slow=False):
+def say(text, filename="temp.mp3", delete_mp3=True, language="en", slow=False):
     # PART 2
     audio = gTTS(text, lang=language, slow=slow)
     audio.save(filename)
@@ -29,5 +29,4 @@ def read_text_aloud(text, filename="temp.mp3", delete_mp3=True, language="en", s
 
 
 if __name__ == "__main__":
-    read_text_aloud(
-        "This is the main module. This program has finished. Thanks for running it!")
+    say("This is the main module. This program has finished. Thanks for running it!")
