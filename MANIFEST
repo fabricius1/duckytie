@@ -2,4 +2,6 @@
 README
 setup.cfg
 setup.py
+duckytie/__init__.py
+duckytie/__main__.py
 duckytie/duckytie.py
