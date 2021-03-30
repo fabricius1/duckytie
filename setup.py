@@ -4,13 +4,13 @@ from distutils.core import setup
 setup(
     name="duckytie",
     packages=["duckytie"],
-    version="0.2.1",
+    version="0.2.2",
     license="MIT",
     description="Make your program read texts aloud with our say() function.",
     author="Fabricio Brasil",
     author_email="fabriciusbr@gmail.com",
     url="https://github.com/fabricius1/duckytie",
-    download_url="https://github.com/fabricius1/duckytie/archive/refs/tags/v_0.2.1.tar.gz",
+    download_url="https://github.com/fabricius1/duckytie/archive/refs/tags/v_0.2.2.tar.gz",
     keywords=["text", "audio", "converter", "say", "function",
               "duckytie", "module"],
     install_requires=[
