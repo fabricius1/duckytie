@@ -4,13 +4,13 @@ from distutils.core import setup
 setup(
     name="duckytie",
     packages=["duckytie"],
-    version="0.2.5",
+    version="0.2.6",
     license="MIT",
     description="Make your program read texts aloud with our say() function.",
     author="Fabricio Brasil",
     author_email="fabriciusbr@gmail.com",
     url="https://github.com/fabricius1/duckytie",
-    download_url="https://github.com/fabricius1/duckytie/archive/refs/tags/v_0.2.5.tar.gz",
+    download_url="https://github.com/fabricius1/duckytie/archive/refs/tags/v_0.2.6.tar.gz",
     keywords=["text", "audio", "converter", "say", "function",
               "duckytie", "module"],
     install_requires=[
@@ -19,7 +19,7 @@ setup(
         "pydub",
     ],
     classifiers=[
-        "Development Status :: 3 - Alpha",
+        "Development Status :: 4 - Beta",
         "Intended Audience :: Developers",
         "Topic :: Software Development :: Build Tools",
         "License :: OSI Approved :: MIT License",
