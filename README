@@ -59,6 +59,9 @@ say('You will be ' + str(int(myAge) + 1) + ' in a year.')
 **Credits:** code adaped from hello.py, written and published by Al Sweigart in his great book *Automate the Boring Stuff With Python* (check the chapter complete content in https://automatetheboringstuff.com/2e/chapter1/). All the calls to the print() function were changed to the say() function from duckytie. Some other minor changes to the original code were also made. This will make the computer use the google translate assistance voice to say out loud all the strings instead of only printing them to the console.
 
 ## Release History
+0.2.8<br>
+CHANGE: Attempt to show project description in PyPI by adding both a README.md and a README.
+
 0.2.7<br>
 CHANGE: Attempt to show project description in PyPI by changing README.md to README.srt.
 No success. This version is the same as 0.2.6.
